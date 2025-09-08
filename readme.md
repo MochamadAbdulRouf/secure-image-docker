@@ -10,6 +10,11 @@ Kita akan mengambil aplikasi Node.js API yang sudah familier, Tetapi kali ini ki
 
 Berikut command yang harus di jalankan
 
+- Pertama pastikan sudah menggunakan command berikut 
+```bash
+npm install
+```
+
 - Buat Image untuk Docker yang biasanya digunakan dan kurang aman
 ```bash
 docker build -t myapi:1.0 -f Dockerfile.v1 .
